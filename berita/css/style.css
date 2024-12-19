@@ -1,0 +1,178 @@
+*{
+    font-family: Helvetica;
+}
+
+.header{
+    display: flex;
+    background-color: #e0e4f1;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.header-logo{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header-logo img{
+    background-color: #e0e4f1;
+    height: 50px;
+}
+
+.header-title{
+    background-color: #e0e4f1;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 15px;
+}
+
+.header-title a{
+    background-color: #e0e4f1;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: #4489A6;
+}
+
+/* Nav Bar */
+
+.nav{
+    background-color: #a0aeda;
+    padding: 10px;
+    margin-top: 0px;
+    border-radius: 3px;
+}
+
+.nav .nav-item{
+    display: inline-block;
+    margin-left: 20px;
+    height: 10px;
+}
+
+.nav .nav-item a{
+    background-color: #a0aeda;
+    padding: 5px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav .nav-item a:hover{
+    color: #044691;
+}
+
+/* konten */
+
+.konten-judul {
+    width: 80%;
+    margin: auto;
+}
+
+.konten-judul h1 {
+    text-decoration: underline;
+    font-size: 35px;
+    color: #4489A6;
+    border-radius: 5px;
+}
+
+.judul {
+    text-align: center;
+}
+
+h5 {
+    background-color: #a0aeda;
+    font-size: 25px;
+    display: inline-block;
+    width: 450px auto;
+    padding: 15px;
+    margin: 18px;
+    border-radius: 8px;
+}
+
+.konten{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.konten-credit{
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.penulis{
+    color: crimson;
+}
+
+.tanggal{
+    color: olive;
+}
+
+span{
+    color: blue;
+}
+
+/* Halaman Utama */
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.box-preview{
+    width: 300px;
+    margin: 20px;
+    background-color: #e0e4f1;
+    padding: 10px;
+    border-radius: 14px;
+}
+
+.box-preview-judul{
+    font-size: 1.2em;
+    height: 60px;
+    font-weight: bold;
+}
+
+.box-preview-credit{
+    font-style: italic;
+}
+
+.box-preview:hover{
+    background-color: #efefef;
+}
+.box-preview .more{
+    color: rgb(113, 4, 167);
+    text-decoration: none;
+}
+
+.box-preview .more:hover{
+    color: #0cce1c;;
+}
+
+/* Styling untuk footer */
+footer {
+    background-color: #a0aeda; /* Warna latar belakang */
+    color: #fff; /* Warna teks */
+    text-align: center;
+    padding: 10px 0; /* Ruang dalam */
+    display: inline-block;
+    position: relative;
+    bottom: 0;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+footer .img-footer {
+    width: 50px;
+}
+
+footer a {
+    color: #212a7c; /* Warna tautan */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
